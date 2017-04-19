@@ -339,6 +339,10 @@ ul.banner-social-buttons {
         padding-top: 100px;
         padding-bottom: 10px;
     }
+    
+    .intro-wrapper{
+        height: auto;
+    }
 
     .intro .intro-body .intro-text {
         font-size: 22px;

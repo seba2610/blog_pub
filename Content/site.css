@@ -1,4 +1,4 @@
-﻿/*!
+/*!
  * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -215,7 +215,7 @@ a:focus {
     background: url('../Images/logo.png') no-repeat left center;
     background-size: contain;
     height: 50px;
-    width: 260px;
+    width: 380px;
     margin: 10px 0;
     padding-left: 60px;
 }
@@ -226,6 +226,28 @@ a:focus {
     color: #555;
     padding: 80px 0;
     text-align: left;
+}
+
+#services article {
+    padding: 40px 0;
+    border-bottom: 1px solid white;
+}
+
+#services article h2{
+    font-size: 22px;
+    line-height: 26px;
+
+}
+
+#services article p, #services article li{
+    text-align: justify;
+    font-size: 18px;
+}
+
+#services article li{
+    margin: 10px;
+    list-style: circle;
+    margin-left: 60px;
 }
 
 @-webkit-keyframes pulse {
@@ -300,12 +322,17 @@ a:focus {
 .btn-default:focus {
   border: 1px solid #42DCA3;
   outline: none;
-  color: black;
-  background-color: #42DCA3;
+  color: white;
+  background-color: rgba(0, 166, 156, 1);
 }
 ul.banner-social-buttons {
   margin-top: 0;
 }
+
+#brand-small{
+    display:none;
+}
+
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
     margin-top: 15px;
@@ -320,19 +347,25 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
+    #brand-lg{
+        display: none;
+    }
+    #brand-small{
+        display:block;
+    }
     .navbar-brand {
         background: url('../Images/logo.png') no-repeat left center;
         background-size: contain;
         height: 30px;
-        width: 200px;
+        width: 256px;
         margin: 12px 10px;
-        padding-left: 50px;
+        padding-left: 40px;
     }
 
     .brand-heading{
         top: 0;
         line-height: 0px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .intro{
@@ -386,6 +419,7 @@ body {
 
 .navbar-fixed-top {
     border-bottom: 3px solid white;
+    background-color: rgba(0, 166, 156, 1);
 }
 
 #services{

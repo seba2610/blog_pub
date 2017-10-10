@@ -452,6 +452,10 @@ ul{
     margin-left: 0;
 }
 
+#ul-index li{
+    font-size: 22px;
+}
+
 #news {
     background-color: #efefef;
 }

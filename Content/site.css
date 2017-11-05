@@ -466,7 +466,8 @@ ul{
 
 #news article{
     border-bottom: 1px solid #ccc;
-    padding: 20px;
+    padding: 18px 8px;
+    margin-bottom: 20px;
 }
 
 #news article p {
